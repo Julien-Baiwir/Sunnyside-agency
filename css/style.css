@@ -223,4 +223,135 @@ a {
  width:50%;
 }  
 
-/* <!-- graphic-photography section -->*/
+/* <!-- CLIENT -->*/
+
+.client {
+ margin-top: 160px;
+}
+.client__titles {
+margin: 0;
+text-align: center;
+font-family: "Fraunces";
+font-size: 20px;
+font-weight: 900;
+line-height: 25px;
+letter-spacing: 5px;
+color: #A7AAAD;
+text-transform: uppercase;
+margin-bottom: 51px;
+}
+.client .client__profil {
+display: flex;
+justify-content: center;
+}
+.client .client__profil .profil {
+width: 350px;
+text-align: center;
+margin: 30px;
+}
+.client .client__profil .profil__img {
+width: 72px;
+height: 72px;
+border-radius: 40px;
+margin-bottom: 58px;
+}
+.client .client__profil .profil__text {
+margin: 0px;
+font-family: "Barlow";
+font-size: 18px;
+font-weight: 600;
+line-height: 32px;
+color: #5B636D;
+margin-bottom: 69px;
+}
+.client .client__profil .profil__name {
+font-family: "Fraunces";
+font-size: 18px;
+font-weight: 900;
+line-height: 22px;
+text-align: center;
+color: #24303E;
+margin: 0px;
+margin-bottom: 9px;
+}
+.client .client__profil .profil__metier {
+font-family: "Barlow";
+font-size: 14px;
+font-weight: 600;
+line-height: 25px;
+color: #A7AAAD;
+margin: 0px;
+} 
+
+/* <!-- 4 PICS --> */
+.images{
+  max-width: 1440PX;
+  width:100%;
+  display :flex;
+  flex-direction: row;
+  }
+  
+  .images__one{
+  width: 25%;
+  }
+  
+  .images__two{
+    width: 25%;
+  }
+  
+  .images__three{
+    width: 25%;
+  }
+  .images__for {
+    width: 25%;
+  }
+
+
+/* <!-- FOOTER -->*/
+footer {
+  background-color: #90D4C6;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.footer__lien {
+  width: 350px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 72px;
+  
+} 
+
+.sunny {
+  width: 170px;
+  height: 33px;
+  font-family: "Barlow";
+  padding-bottom: 40px;
+  padding-left: 80px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+
+li{
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #458D7E;
+} 
+
+footer .icon__footer {
+  width: 164px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+} 
