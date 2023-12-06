@@ -223,7 +223,59 @@ a {
  width:50%;
 }  
 
-/* <!-- CLIENT -->*/
+/* !-- DESIGN BOX4-- */
+.graphpics {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+}
+.graphpics__cherry {
+  background-image: url("/images/photos/image-graphic-design.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+.graphpics__cherry h2 {
+  color: #24554A;
+}
+.graphpics .graphpics__cherry p {
+  color: #3E7467;
+}
+.graphpics .graphpics__manda {
+  background-image: url("/images/photos/image-photography.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+.graphpics .graphpics__manda h2 {
+  color: #052C3B;
+}
+.graphpics .graphpics__manda p {
+  color: #19536C;
+}
+.graphpics__centertext {
+  margin: auto;
+  width: 339px;
+  margin-top: 398px;
+  text-align: center;
+}
+.graphpics__centertext h2 {
+  font-family: "Fraunces";
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 35px;
+}
+.graphpics__centertext p {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+}
+
+
+
+/* <!-- CLIENT BOX5 -->*/
 
 .client {
  margin-top: 160px;
@@ -283,7 +335,7 @@ color: #A7AAAD;
 margin: 0px;
 } 
 
-/* <!-- 4 PICS --> */
+/* <!-- 4 PICS BOX6--> */
 .images{
   max-width: 1440PX;
   width:100%;
@@ -307,7 +359,7 @@ margin: 0px;
   }
 
 
-/* <!-- FOOTER -->*/
+/* <!-- FOOTER BOX7-->*/
 footer {
   background-color: #90D4C6;
   height: 350px;
