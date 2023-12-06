@@ -38,6 +38,7 @@ body{
     background-image: url('/images/photos/image-header.jpg');
     background-size: cover; 
     background-position: center; 
+  
 }
 
 .orangebox__header{ 
@@ -150,7 +151,7 @@ padding-top: 105px;
    width:50%;
   } 
 
-    /* design photographic section*/
+  /* design photographic section*/
 .globaldesign{
   display: flex;
   flex-direction: row;
@@ -159,11 +160,109 @@ padding-top: 105px;
 
 .globaldesign__graphic{
   width:50%;
+  background-image: url('/images/photos/image-graphic-design.jpg'); 
+  background-size: cover; 
+
 }
 .globaldesign__photography{
   width:50%;
+ background-image: url('/images/photos/image-photography.jpg'); 
+ background-size: cover; 
+
 }
 
-  /* client testimonials section*/
+/* client testimonials section*/
+.com{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.com__client{
+  display: flex;
+  flex-direction: row;
+  padding-left: 165px;
+  padding-right: 165px;
+  border: 2px solid red;
+}
+/* .com__client__one{
+  border: 2px solid red;
+}
+.com__client__two{
+  border: 2px solid red;
+}
+.com__client__three{
+  border: 2px solid red;
+} */
+
+/* 4 images section*/
+
+.images{
+display:flex;
+flex-direction: row;
+}
+
+.images__one{
+width: 25%;
+}
+
+.images__two{
+  width: 25%;
+}
+
+.images__three{
+  width: 25%;
+}
+.images__for {
+  width: 25%;
+}
+
+/*footer*/
+
+footer {
+  background-color: #90D4C6;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
 
+.footer__lien {
+  width: 350px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 72px;
+  
+} 
+
+.sunny {
+  width: 170px;
+  height: 33px;
+  font-family: "Barlow";
+  padding-bottom: 40px;
+  padding-left: 80px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+
+li{
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #458D7E;
+} 
+
+footer .icon__footer {
+  width: 164px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+} 
