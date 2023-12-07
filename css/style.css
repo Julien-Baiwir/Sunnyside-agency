@@ -26,10 +26,6 @@ header {
   background-position: center; 
 }
 
-.nav__burger {
-  display: none;
-}
-
 .nav {
   display: flex;
   justify-content: space-between;
@@ -37,6 +33,9 @@ header {
   padding: 34px 0px;
 }
 
+.nav__burger {
+  display: none;
+}
 
 .nav__img {
   height: 33px;
@@ -120,9 +119,9 @@ a {
  }
   
 .transform__text__align{
-  width: 445px;
-  margin-top: 158px;
- margin-left: 165px;
+  width: 75%;
+  padding-top: 25%;
+  padding-left: 15%;
    
  }
   
@@ -131,7 +130,7 @@ a {
    font-size: 40px;
    font-weight: 900;
    line-height: 49px;
- text-align: left;
+  text-align: left;
   color: #24303E;
   margin: 0px;
  }
@@ -180,9 +179,9 @@ a {
  }
   
  .design__text__align{
-   width: 445px;
-   margin-top: 158px;
-   margin-left: 165px;
+  width: 75%;
+  padding-top: 25%;
+  padding-left: 15%;
   
  }
   
@@ -231,26 +230,35 @@ a {
 }
 .graphpics__cherry {
   background-image: url("/images/photos/image-graphic-design.jpg");
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-size: cover;
-  width: 50%;
+  width: 50%; */
+  background-size: cover;
+    background-position: 50% 50%; 
+    width: 50%; 
 }
 .graphpics__cherry h2 {
   color: #24554A;
 }
-.graphpics .graphpics__cherry p {
+.graphpics__cherry p {
   color: #3E7467;
 }
-.graphpics .graphpics__manda {
+.graphpics__manda {
   background-image: url("/images/photos/image-photography.jpg");
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-size: cover;
-  width: 50%;
+  width: 50%; */
+    background-size: cover;
+    background-position: 50% 50%; 
+    width: 50%; 
+    
 }
-.graphpics .graphpics__manda h2 {
+
+
+.graphpics__manda h2 {
   color: #052C3B;
 }
-.graphpics .graphpics__manda p {
+.graphpics__manda p {
   color: #19536C;
 }
 .graphpics__centertext {
@@ -398,7 +406,7 @@ li{
   font-weight: 600;
   line-height: 25px;
   color: #458D7E;
-} 
+} ''
 
 footer .icon__footer {
   width: 164px;
@@ -407,3 +415,6 @@ footer .icon__footer {
   justify-content: space-between;
   padding-bottom: 30px;
 } 
+
+/* ------------------------------------------------------ */
+
