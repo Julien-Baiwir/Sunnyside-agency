@@ -19,13 +19,12 @@ $White: hsl(0, 0%, 100%);
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
-}
-
-// -----DESKTOP-----
-body{
+  }
+  /* BODY */
+  body {
     max-width: 1440px;
     width: 100%;
     height: 4174px;
@@ -34,411 +33,390 @@ body{
     font-family: "Barlow", "Fraunces";
     display: flex;
     flex-direction: column;
-}
-
-/* <!-- HEADER BOX1--> */
-
-header {
-  height: 800px;
-  background-image: url("/images/photos/image-header.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; 
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  margin: 0px 40px;
-  padding: 34px 0px;
-  
-}
-
-.nav__burger {
-  display: none;
-}
-
-.nav__img {
-  height: 33px;
-  width: 177px;
-}
-
-.nav__barre__btn {
-  width: 66px;
-  height: 25px;
-  margin-left: 47px;
-  background-color: transparent;
-  border: none;
-}
-
-.nav__barre__btn a {
-  font-family: "Barlow";
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 25px;
-  color: hsl(0, 0%, 100%);
-}
-
-
-.nav__barre__contact {
-  height: 56px;
-  width: 140px;
-  background-color: hsl(0, 0%, 100%);
-  border: none;
-  border-radius: 25px;
-  margin-left: 47px;
-}
-
-
-a {
-  font-family: "Fraunces";
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 25px;
-  color: #24303E;
-}
-
-
-.nav__barre__contact:hover {
-  background-color: white;
-  opacity: 25.37%;
-  text-transform: uppercase;
-}
-
-
-.header__titre {
-  text-align: center;
-  margin-top:80px;
-  margin-bottom:80px; 
-  font-family: "Fraunces";
-  font-size: 56px;
-  font-weight: 900;
-  line-height: 69px;
-  letter-spacing: 8.75px;
-  text-transform: uppercase;
-  color: hsl(0, 0%, 100%);
-}
- 
-.header__img {
-  text-align: center;
-  margin: 0px 0px;
-  width: 100%;
-}
-
-/* <!-- TRANSFORM BOX2 --> */
-
-.transform{
-   display: flex;
-   flex-direction: row;
-   height:600px;
-  
- }
-  
-.transform__text{
-   width:50%;
-  
- }
-  
-.transform__text__align{
-  width: 75%;
-  padding-top: 25%;
-  padding-left: 15%;
-   
- }
-  
-.transform__text__align__title{
-  font-family: "Fraunces";
-   font-size: 40px;
-   font-weight: 900;
-   line-height: 49px;
-  text-align: left;
-  color: #24303E;
-  margin: 0px;
- }
-  
-.transform__text__align__description{
-   font-family: "Barlow";
-  font-size: 18px;
-   font-weight: 600;
-   line-height: 30px;
-  text-align: left;
-  color: #808397;
-   margin: 0px;
-   margin-top: 32px;
-  margin-bottom: 40px;
   }
   
-   .transform__text__align__link{
-  font-family: "Fraunces";
-   font-size: 15px;
-   font-weight: 900;
-   line-height: 25px;
-   text-align: left;
-   color: #24303E;
-   border-bottom: 10px solid rgba(250, 212, 0, 0.25);
-   border-radius: 5px;
+  /* HEADER BOX1 */
   
-  }
-  
-.transform__eggpic{
-  width:50%;
-} 
-  
-  /* <!-- DESIGN BOX3--> */
-  
-  .design{
-   display: flex;
-   flex-direction: row-reverse;
-   height:600px;
-   margin: 0px;
-  padding: 0px;
- }
-  
-  .design__text{
- width:50%;
-  
- }
-  
- .design__text__align{
-  width: 75%;
-  padding-top: 25%;
-  padding-left: 15%;
-  
- }
-  
-  .design__text__align__title{
-  font-family: "Fraunces";
-  font-size: 40px;
-  font-weight: 900;
-  line-height: 49px;
-  text-align: left;
-   color: #24303E;
-   margin: 0px;
- }
-  
-  .design__text__align__description{
-  font-family: "Barlow";
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 30px;
-   text-align: left;
-   color: #808397;
-   margin: 0px;
-   margin-top: 32px;
-   margin-bottom: 40px;
- }
-  
-   .design__text__align__link{
-   font-family: "Fraunces";
-   font-size: 15px;
-   font-weight: 900;
-   line-height: 25px;
-  text-align: left;
-   color: #24303E;
-   border-bottom: 10px solid rgba(88, 7, 68, 0.25);
-   border-radius: 5px;
-}
-
- .design__standout{
- width:50%;
-}  
-
-/* !-- DESIGN BOX4-- */
-.graphpics {
-  display: flex;
-  flex-direction: row;
-  height: 600px;
-}
-.graphpics__cherry {
-  background-image: url("/images/photos/image-graphic-design.jpg");
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  width: 50%; */
-  background-size: cover;
-    background-position: 50% 50%; 
-    width: 50%; 
-}
-.graphpics__cherry h2 {
-  color: #24554A;
-}
-.graphpics__cherry p {
-  color: #3E7467;
-}
-.graphpics__manda {
-  background-image: url("/images/photos/image-photography.jpg");
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  width: 50%; */
+  header {
+    height: 800px;
+    background-image: url("/images/photos/image-header.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%; 
-    width: 50%; 
-    
-}
-
-
-.graphpics__manda h2 {
-  color: #052C3B;
-}
-.graphpics__manda p {
-  color: #19536C;
-}
-.graphpics__centertext {
-  margin: auto;
-  width: 339px;
-  margin-top: 398px;
-  text-align: center;
-}
-.graphpics__centertext h2 {
-  font-family: "Fraunces";
-  font-size: 28px;
-  font-weight: 900;
-  line-height: 35px;
-}
-.graphpics__centertext p {
-  font-family: Barlow;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 27px;
-  text-align: center;
-}
-
-
-
-/* <!-- CLIENT BOX5 -->*/
-
-.client {
- margin-top: 160px;
-}
-.client__titles {
-margin: 0;
-text-align: center;
-font-family: "Fraunces";
-font-size: 20px;
-font-weight: 900;
-line-height: 25px;
-letter-spacing: 5px;
-color: #A7AAAD;
-text-transform: uppercase;
-margin-bottom: 51px;
-}
-.client__profil {
-display: flex;
-justify-content: center;
-}
-.profil {
-width: 350px;
-text-align: center;
-margin: 30px;
-}
-.profil__img {
-width: 72px;
-height: 72px;
-border-radius: 40px;
-margin-bottom: 58px;
-}
-.profil__text {
-margin: 0px;
-font-family: "Barlow";
-font-size: 18px;
-font-weight: 600;
-line-height: 32px;
-color: #5B636D;
-margin-bottom: 69px;
-}
-.profil__name {
-font-family: "Fraunces";
-font-size: 18px;
-font-weight: 900;
-line-height: 22px;
-text-align: center;
-color: #24303E;
-margin: 0px;
-margin-bottom: 9px;
-}
-.profil__metier {
-font-family: "Barlow";
-font-size: 14px;
-font-weight: 600;
-line-height: 25px;
-color: #A7AAAD;
-margin: 0px;
-} 
-
-/* <!-- 4 PICS BOX6--> */
-.images{
-  max-width: 1440PX;
-  width:100%;
-  display :flex;
-  flex-direction: row;
+    background-position: center;
   }
   
-  .images__one{
-  width: 25%;
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+    padding: 34px 0px;
+  
+    &__burger {
+      display: none;
+    }
+  
+    &__img {
+      height: 33px;
+      width: 177px;
+    }
+  
+    &__barre {
+      &__btn {
+        width: 66px;
+        height: 25px;
+        margin-left: 47px;
+  
+        a {
+          font-family: "Barlow";
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 25px;
+          color: hsl(0, 0%, 100%);
+        }
+      }
+  
+      &__contact {
+        height: 56px;
+        width: 140px;
+        background-color: hsl(0, 0%, 100%);
+        border: none;
+        border-radius: 25px;
+        margin-left: 47px;
+  
+        &:hover {
+          background-color: white;
+          opacity: 25.37%;
+          text-transform: uppercase;
+        }
+      }
+    }
   }
   
-  .images__two{
-    width: 25%;
+  .header__titre {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-family: "Fraunces";
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 69px;
+    letter-spacing: 8.75px;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
   }
   
-  .images__three{
-    width: 25%;
+  .header__img {
+    text-align: center;
+    margin: 0px 0px;
+    width: 100%;
   }
-  .images__for {
-    width: 25%;
-  }
-
-
-/* <!-- FOOTER BOX7-->*/
-footer {
-  background-color: #90D4C6;
-  height: 350px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-
-.footer__lien {
-  width: 350px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  margin-top: 72px;
   
-} 
+  /* TRANSFORM BOX2 */
+  
+  .transform {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+  
+    &__text {
+      width: 50%;
+  
+      &__align {
+        width: 75%;
+        padding-top: 25%;
+        padding-left: 15%;
+  
+        &__title {
+          font-family: "Fraunces";
+          font-size: 40px;
+          font-weight: 900;
+          line-height: 49px;
+          text-align: left;
+          color: #24303E;
+          margin: 0px;
+        }
+  
+        &__description {
+          font-family: "Barlow";
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 30px;
+          text-align: left;
+          color: #808397;
+          margin: 0px;
+          margin-top: 32px;
+          margin-bottom: 40px;
+        }
+  
+        &__link {
+          font-family: "Fraunces";
+          font-size: 15px;
+          font-weight: 900;
+          line-height: 25px;
+          text-align: left;
+          color: #24303E;
+          border-bottom: 10px solid rgba(250, 212, 0, 0.25);
+          border-radius: 5px;
+        }
+      }
+    }
+  
+    &__eggpic {
+      width: 50%;
+    }
+  }
+  
+  /* DESIGN BOX3 */
+  
+  .design {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+  
+    &__text {
+      width: 50%;
+  
+      &__align {
+        width: 75%;
+        padding-top: 25%;
+        padding-left: 15%;
+  
+        &__title {
+          font-family: "Fraunces";
+          font-size: 40px;
+          font-weight: 900;
+          line-height: 49px;
+          text-align: left;
+          color: #24303E;
+          margin: 0px;
+        }
+  
+        &__description {
+          font-family: "Barlow";
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 30px;
+          text-align: left;
+          color: #808397;
+          margin: 0px;
+          margin-top: 32px;
+          margin-bottom: 40px;
+        }
+  
+        &__link {
+          font-family: "Fraunces";
+          font-size: 15px;
+          font-weight: 900;
+          line-height: 25px;
+          text-align: left;
+          color: #24303E;
+          border-bottom: 10px solid rgba(88, 7, 68, 0.25);
+          border-radius: 5px;
+        }
+      }
+    }
+  
+    &__standout {
+      width: 50%;
+    }
+  }
+  
+  /* DESIGN BOX4 */
+  
+  .graphpics {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+  
+    &__cherry,
+    &__manda {
+      background-size: cover;
+      width: 50%;
+    }
+  
+    &__cherry {
+      background-image: url("/images/photos/image-graphic-design.jpg");
+      background-position: 50% 50%;
+  
+      h2 {
+        color: #24554a;
+      }
+  
+      p {
+        color: #3e7467;
+      }
+    }
+  
+    &__manda {
+      background-image: url("/images/photos/image-photography.jpg");
+      background-position: 50% 50%;
+  
+      h2 {
+        color: #052c3b;
+      }
+  
+      p {
+        color: #19536c;
+      }
+    }
+  
+    &__centertext {
+      margin: auto;
+      width: 339px;
+      margin-top: 398px;
+      text-align: center;
+  
+      h2 {
+        font-family: "Fraunces";
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 35px;
+      }
+  
+      p {
+        font-family: Barlow;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 27px;
+        text-align: center;
+      }
+    }
+  }
+  
+  /* CLIENT BOX5 */
+  
+  .client {
+    margin-top: 160px;
+  
+    &__titles {
+      margin: 0;
+      text-align: center;
+      font-family: "Fraunces";
+      font-size: 20px;
+      font-weight: 900;
+      line-height: 25px;
+      letter-spacing: 5px;
+      color: #a7aaad;
+      text-transform: uppercase;
+      margin-bottom: 51px;
+    }
+  
+    &__profil {
+      display: flex;
+      justify-content: center;
+  
+      & .profil {
+        width: 350px;
+        text-align: center;
+        margin: 30px;
+  
+        &__img {
+          width: 72px;
+          height: 72px;
+          border-radius: 40px;
+          margin-bottom: 58px;
+        }
+  
+        &__text {
+          margin: 0px;
+          font-family: "Barlow";
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 32px;
+          color: #5b636d;
+          margin-bottom: 69px;
+        }
+  
+        &__name {
+          font-family: "Fraunces";
+          font-size: 18px;
+          font-weight: 900;
+          line-height: 22px;
+          text-align: center;
+          color: #24303e;
+          margin: 0px;
+          margin-bottom: 9px;
+        }
+  
+        &__metier {
+          font-family: "Barlow";
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 25px;
+          color: #a7aaad;
+          margin: 0px;
+        }
+      }
+    }
+  }
+  
+  /* 4 PICS BOX6 */
+  
+  .images {
+    max-width: 1440PX;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  
+    &__one,
+    &__two,
+    &__three,
+    &__for {
+      width: 25%;
+    }
+  }
+  
+  /* FOOTER BOX7 */
+  
+  footer {
+    background-color: #90d4c6;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+    &__lien {
+      width: 350px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      margin-top: 72px;
+  
+      & .sunny {
+        width: 170px;
+        height: 33px;
+        font-family: "Barlow";
+        padding-bottom: 40px;
+        padding-left: 80px;
+      }
+  
+      & ul {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 50px;
+  
+        & li {
+          font-family: "Barlow";
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 25px;
+          color: #458d7e;
+        }
+      }
+    }
+  
+    &__icon {
+      width: 164px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 30px;
+    }
+  }
 
-.sunny {
-  width: 170px;
-  height: 33px;
-  font-family: "Barlow";
-  padding-bottom: 40px;
-  padding-left: 80px;
-}
-
-ul {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 50px;
-}
-
-li{
-  font-family: "Barlow";
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 25px;
-  color: #458D7E;
-} 
-
-.icon__footer {
-  width: 164px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 30px;
-} 
-
-/* <!-- mobile version en cours--> */
-
+// <!-- mobile version en cours--> 
 
 // body {
 //     max-width: 375px;
@@ -451,238 +429,218 @@ li{
 //     flex-direction: column;
 //   }
   
-//   -- HEADER BOX1--> 
-  
 //   header {
-//     height: 538px;
-//     position: relative;
-//     background-image: url("/images/photos/image-header.jpg");
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     background-position: center;
+//     &__nav {
+//       display: flex;
+//       justify-content: space-between;
+      
+//       &__burger {
+//         display: inline;
+//         height: 24px;
+//         width: 18px;
+//         padding-top: 35px;
+//         padding-right: 24px;
+//       }
+      
+//       &__img {
+//         height: 24px;
+//         width: 123.64px;
+//         padding-top: 32px;
+//         padding-left: 24px;
+//       }
+      
+//       &__barre {
+//         display: none;
+//       }
+//     }
+    
+//     &__titre {
+//       text-align: center;
+//       width: 327px;
+//       height: 98px;
+//       margin-top: 88px;
+//       font-family: "Fraunces";
+//       font-size: 40px;
+//       font-weight: 900;
+//       line-height: 49.32px;
+//       letter-spacing: 8.75px;
+//       text-transform: uppercase;
+//       color: hsl(0, 0%, 100%);
+//     }
+    
+//     &__img {
+//       text-align: center;
+//       width: 100%;
+//       overflow: visible;
+//     }
 //   }
-  
-//   .nav {
-//     display: flex;
-//     justify-content: space-between;
-//   }
-  
-//   .nav__burger {
-//     display: inline;
-//     height: 24px;
-//     width: 18px;
-//     padding-top: 35px;
-//     padding-right: 24px;
-//   }
-  
-//   .nav__img {
-//     height: 24px;
-//     width: 123.64px;
-//     padding-top: 32px;
-//     padding-left: 24px;
-//   }
-  
-//   .nav__barre {
-//     display: none;
-//   }
-  
-//   .header__titre {
-//     text-align: center;
-//     width: 327px;
-//     height: 98px;
-//     margin-top: 88px;
-//     font-family: "Fraunces";
-//     font-size: 40px;
-//     font-weight: 900;
-//     line-height: 49.32pxpx;
-//     letter-spacing: 8.75px;
-//     text-transform: uppercase;
-//     color: hsl(0, 0%, 100%);
-//   }
-  
-//   .header__img {
-//     text-align: center;
-//     width: 100%;
-//     overflow: visible;
-//   }
-  
-//   -- TRANSFORM BOX2 --
   
 //   .transform {
-//     display: flex;
-//     flex-direction: column-reverse;
-//     height: 749px;
+//     &__text {
+//       width: 100%;
+//       height: 437px;
+      
+//       &__align {
+//         width: 327px;
+//         height: 309px;
+        
+//         &__title {
+//           font-family: "Fraunces";
+//           font-size: 32px;
+//           font-weight: 900;
+//           line-height: 39.46px;
+//           text-align: center;
+//           color: #24303e;
+//         }
+        
+//         &__description {
+//           font-family: "Barlow";
+//           font-size: 18px;
+//           font-weight: 600;
+//           line-height: 30px;
+//           text-align: center;
+//           color: #808397;
+//           margin: 0;
+//           margin-top: 32px;
+//           margin-bottom: 40px;
+//         }
+        
+//         &__link {
+//           font-family: "Fraunces";
+//           text-transform: uppercase;
+//           font-size: 15px;
+//           font-weight: 900;
+//           line-height: 25px;
+//           color: #24303e;
+//           border-bottom: 10px solid rgba(250, 212, 0, 0.25);
+//           border-radius: 5px;
+//         }
+//       }
+//     }
+    
+//     &__eggpic {
+//       width: 100%;
+//       height: 312px;
+//       margin: 0;
+//     }
 //   }
-  
-//   .transform__text {
-//     width: 100%;
-//     height: 437px;
-//   }
-  
-//   .transform__text__align {
-//     width: 327px;
-//     height: 309px;
-//   }
-  
-//   .transform__text__align__title {
-//     font-family: "Fraunces";
-//     font-size: 32px;
-//     font-weight: 900;
-//     line-height: 39.46px;
-//     text-align: center;
-//     color: #24303e;
-//   }
-  
-//   .transform__text__align__description {
-//     font-family: "Barlow";
-//     font-size: 18px;
-//     font-weight: 600;
-//     line-height: 30px;
-//     text-align: center;
-//     color: #808397;
-//     margin: 0px;
-//     margin-top: 32px;
-//     margin-bottom: 40px;
-//   }
-  
-//   .transform__text__align__link {
-//     font-family: "Fraunces";
-//     text-transform: uppercase;
-//     font-size: 15px;
-//     font-weight: 900;
-//     line-height: 25px;
-//     color: #24303e;
-//     border-bottom: 10px solid rgba(250, 212, 0, 0.25);
-//     border-radius: 5px;
-//   }
-  
-//   .transform__eggpic {
-//     width: 100%;
-//     height: 312px;
-//     margin: 0px;
-//   }
-  
-//   -- DESIGN BOX3--
   
 //   .design {
-//     display: flex;
-//     flex-direction: column-reverse;
-//     height: 749px;
-//   }
-  
-//   .design__text {
-//     width: 100%;
-//     height: 437px;
-//   }
-  
-//   .design__text__align {
-//     font-family: "Fraunces";
-//     font-size: 32px;
-//     font-weight: 900;
-//     line-height: 39.46px;
-//     text-align: center;
-//     color: #24303e;
-//   }
-  
-//   .design__text__align__title {
-//     font-family: "Fraunces";
-//     font-size: 32px;
-//     font-weight: 900;
-//     line-height: 39.46px;
-//     text-align: center;
-//     color: #24303e;
-//   }
-  
-//   .design__text__align__description {
-//     font-family: "Barlow";
-//     font-size: 18px;
-//     font-weight: 600;
-//     line-height: 30px;
-//     text-align: center;
-//     color: #808397;
-//     margin: 0px;
-//     margin-top: 32px;
-//     margin-bottom: 40px;
-//   }
-  
-//   .design__text__align__link {
-//     font-family: "Fraunces";
-//     text-transform: uppercase;
-//     font-size: 15px;
-//     font-weight: 900;
-//     line-height: 25px;
-//     color: #24303e;
-//     border-bottom: 10px solid rgba(250, 212, 0, 0.25);
-//     border-radius: 5px;
-//   }
-  
-//   .design__standout {
-//     width: 100%;
+//     &__text {
+//       width: 100%;
+//       height: 437px;
+      
+//       &__align {
+//         font-family: "Fraunces";
+//         font-size: 32px;
+//         font-weight: 900;
+//         line-height: 39.46px;
+//         text-align: center;
+//         color: #24303e;
+        
+//         &__title {
+//           font-family: "Fraunces";
+//           font-size: 32px;
+//           font-weight: 900;
+//           line-height: 39.46px;
+//           text-align: center;
+//           color: #24303e;
+//         }
+        
+//         &__description {
+//           font-family: "Barlow";
+//           font-size: 18px;
+//           font-weight: 600;
+//           line-height: 30px;
+//           text-align: center;
+//           color: #808397;
+//           margin: 0;
+//           margin-top: 32px;
+//           margin-bottom: 40px;
+//         }
+        
+//         &__link {
+//           font-family: "Fraunces";
+//           text-transform: uppercase;
+//           font-size: 15px;
+//           font-weight: 900;
+//           line-height: 25px;
+//           color: #24303e;
+//           border-bottom: 10px solid rgba(250, 212, 0, 0.25);
+//           border-radius: 5px;
+//         }
+//       }
+//     }
     
+//     &__standout {
+//       width: 100%;
+//     }
 //   }
   
-//   -- DESIGN BOX4--
 //   .graphpics {
-//     display: flex;
-//     flex-direction: column;
-//     height: 600px;
-//   }
-//   .graphpics__cherry {
-//     background-image: url("/images/photos/image-graphic-design.jpg");
-//     background-size: cover;
-//     background-position: 50% 50%;
-//     width: 100%;
-//   }
-//   .graphpics__cherry h2 {
-//     color: #24554a;
-//   }
-//   .graphpics__cherry p {
-//     color: #3e7467;
-//   }
-//   .graphpics__manda {
-//     background-image: url("/images/photos/image-photography.jpg");
-//     background-size: cover;
-//     background-position: 50% 50%;
-//     width: 100%;
-//   }
-  
-//   .graphpics__manda h2 {
-//     color: #052c3b;
-//   }
-//   .graphpics__manda p {
-//     color: #19536c;
-//   }
-//   .graphpics__centertext {
-//     margin: auto;
-//     width: 339px;
-//     margin-top: 398px;
-//     text-align: center;
-//   }
-//   .graphpics__centertext h2 {
-//     font-family: "Fraunces";
-//     font-size: 28px;
-//     font-weight: 900;
-//     line-height: 35px;
-//   }
-//   .graphpics__centertext p {
-//     font-family: Barlow;
-//     font-size: 16px;
-//     font-weight: 600;
-//     line-height: 27px;
-//     text-align: center;
+//     &__cherry,
+//     &__manda {
+//       background-size: cover;
+//       width: 100%;
+      
+//       & h2 {
+//         color: #24554a;
+//       }
+      
+//       & p {
+//         color: #3e7467;
+//       }
+//     }
+    
+//     &__cherry {
+//       background-image: url("/images/photos/image-graphic-design.jpg");
+//       background-position: 50% 50%;
+//     }
+    
+//     &__manda {
+//       background-image: url("/images/photos/image-photography.jpg");
+//       background-position: 50% 50%;
+      
+//       & h2 {
+//         color: #052c3b;
+//       }
+      
+//       & p {
+//         color: #19536c;
+//       }
+//     }
+    
+//     &__centertext {
+//       margin: auto;
+//       width: 339px;
+//       margin-top: 398px;
+//       text-align: center;
+      
+//       & h2 {
+//         font-family: "Fraunces";
+//         font-size: 28px;
+//         font-weight: 900;
+//         line-height: 35px;
+//       }
+      
+//       & p {
+//         font-family: Barlow;
+//         font-size: 16px;
+//         font-weight: 600;
+//         line-height: 27px;
+//         text-align: center;
+//       }
+//     }
 //   }
   
 //   .client {
 //     display: none;
-   
 //   }
   
 //   .images {
 //     display: none;
 //   }
   
-  
 //   footer {
 //     display: none;
-  
 //   }
